@@ -1,0 +1,29 @@
+form {
+  width: 100%;
+
+}
+
+textarea, input[type='text'] {
+/*   font-size: 14px;
+ */
+  margin: 20px;
+  border: 1px solid #372248;
+  transition: 300ms ease all;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+textarea:focus, input[type='text']:focus {
+  border: 1px solid #3F7D20;
+}
+
+textarea {
+  min-height: 250px;
+}
+
+label {
+/*   margin: 20px;
+ */  font-weight: bold;
+}

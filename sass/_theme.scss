@@ -1,0 +1,50 @@
+.show {
+  padding: 40px;
+}
+
+.name {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  line-height: 1.45;
+/*   float: left;
+ */  margin: 20px;
+  margin-top: 10px;
+  display: block;
+  padding: 10px;
+}
+.name:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.display {
+  margin-left: 150px;
+
+}
+.login {
+  margin-top: 20px;
+  margin-left: 40px;
+  color: white;
+  background: #482ACF;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  transition: 300ms ease all;
+}
+section {
+  float: left;
+/*   margin: 10px;
+ */  display: block;
+}
+section {
+/*   margin-left: 45px;
+ */}
+
+section:after {
+
+  clear: both;
+  visibility: hidden;clear: both;
+  visibility: hidden;
+}
